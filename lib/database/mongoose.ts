@@ -23,5 +23,5 @@ export const connectToDatabase = async () => {
         (MONGODB_URL,{dbName:'ZoomInTech',bufferCommands:false})
     
     cached.conn = await cached.promise;
-    return cached.conn
+    return cached.conn;
 }
